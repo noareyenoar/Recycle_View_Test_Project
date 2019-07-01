@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void create_dataset(){
         data_set = new String[data_number];
-        for(int i=0 ; i<=data_number ; i=i+1) {
+        for(int i=0 ; i<data_number ; i=i+1) {
             data_set[i] = "Example Row =" + i;
         }
     }

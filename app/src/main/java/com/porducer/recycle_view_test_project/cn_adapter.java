@@ -25,7 +25,7 @@ public class cn_adapter extends RecyclerView.Adapter<cn_adapter.ViewHolder>  {
 
     @Override   //Method to set information into binded view
     public void onBindViewHolder(@NonNull cn_adapter.ViewHolder viewHolder, int i) {
-        viewHolder.getTextView1().setText(this_data_set[i]);
+        viewHolder.getTextView1().setText(this_data_set[i] + " " + i);
     }
 
     @Override
